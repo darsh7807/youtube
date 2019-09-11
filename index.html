@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <script src="setup.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+        <div align="center">
+            <div>
+                <form onsubmit="return search('')" name="myform">
+                    <input type="text" name ="input" id="searchtext" required/>
+                    <input type="submit" value="search">
+                </form>
+            </div>
+            <div id="sort">
+                <span>Sort By</span>
+                <button onclick="sort(2)" class="sortbutton">Date</button>
+                <button onclick="sort(1)"class="sortbutton">Title</button>
+            </div>
+
+        <div class="result">
+            <div id="demo">
+                
+            </div>
+            <div id="navigation">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
