@@ -2,7 +2,7 @@ Steps to run Website
 
 clone the repository:
 
-git clone https://darsh7807@bitbucket.org/darsh7807/youtube-api.git YAPI
+git clone https://github.com/darsh7807/youtube.git
 
 Add APIKEY key in setup.js
 
